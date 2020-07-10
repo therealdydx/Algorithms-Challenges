@@ -50,11 +50,3 @@ function insertionSort(array)
 var arr = genRandomArray(12);
 console.log(arr)
 console.log(insertionSort(arr));
-
-// Do not modify the code below this point--------------------------------
-module.exports = {
-	genRandomArray: genRandomArray,
-	swap: swap,
-	shift: shift,
-	insertionSort: insertionSort
-}
