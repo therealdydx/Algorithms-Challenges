@@ -73,8 +73,6 @@ function find(birthdays)
 
 // -------------------------------------------------------------------
 
-///////////////////////////////////////////
-
 function swap(array, index1, index2) 
 {
 	var x1 = array[index2];
@@ -169,21 +167,8 @@ function findSorted(birthdays)
     return uniqueBirthdays;
 }
 
-///////////////////////////////////////////
+
 
 var birthdays = genBirthdays(1589);
 console.log(find(birthdays));
 console.log(findSorted(birthdays));
-
-
-// Do not modify the code below this point--------------------------------
-module.exports = {
-	genDay: genDay,
-	genBirthdays: genBirthdays,
-	find: find,
-	swap: swap,
-	bubbleSort: bubbleSort,
-	bubbleSortDays: bubbleSortDays,
-	findSorted: findSorted
-
-}
